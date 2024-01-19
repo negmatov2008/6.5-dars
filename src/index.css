@@ -253,6 +253,8 @@ body {
   .card {
     max-width: 90%;
     margin: 30px auto;
+    margin-right: 10px;
+    display: flex;
   }
   .number-control {
     gap: 13px;
