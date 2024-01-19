@@ -1,0 +1,248 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+body {
+  background-color: #3a4663;
+  color: #fff;
+  font-family: "League Spartan", sans-serif;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 540px;
+  margin: 96px auto;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-header span {
+  color: #fff;
+  text-align: center;
+  font-family: "League Spartan";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.533px;
+}
+.card-header img {
+  cursor: pointer;
+}
+.card-display {
+  padding: 40px 32px 36px 0px;
+  max-width: 100%;
+  border-radius: 10px;
+  background: #181f33;
+  color: #fff;
+  text-align: right;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.933px;
+  min-height: 127px;
+}
+.card-number {
+  padding: 32px;
+  border-radius: 10px;
+  background: #242d44;
+  max-width: 100%;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.number {
+  border-radius: 10px;
+  background: #eae3dc;
+  box-shadow: 0px -4px 0px 0px #b3a497 inset;
+  padding: 13px 13px 12px 14px;
+  color: #434a59;
+  text-align: center;
+  font-family: "League Spartan";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.667px;
+  width: 101px;
+  cursor: pointer;
+}
+.number:active {
+  border-radius: 10px;
+  background: #fffffe;
+  box-shadow: 0px -4px 0px 0px #b3a497 inset;
+}
+.number:nth-child(4) {
+  border-radius: 10px;
+  background: #647198;
+  box-shadow: 0px -4px 0px 0px #414e73 inset;
+  color: #eae3dc;
+}
+.number:nth-child(4):active {
+  border-radius: 10px;
+  background: #a2b2e1;
+  box-shadow: 0px -4px 0px 0px #414e73 inset;
+}
+.number-control {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.number-reset {
+  border-radius: 10px;
+  background: #647198;
+  box-shadow: 0px -4px 0px 0px #414e73 inset;
+  width: 227px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "League Spartan";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.467px;
+  padding-top: 19px;
+  cursor: pointer;
+}
+.number-resoult {
+  border-radius: 10px;
+  background: #d03f2f;
+  box-shadow: 0px -4px 0px 0px #93261a inset;
+  width: 227px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "League Spartan";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.467px;
+  padding-top: 19px;
+  cursor: pointer;
+}
+.number-reset:active {
+  border-radius: 10px;
+  background: #a2b2e1;
+  box-shadow: 0px -4px 0px 0px #414e73 inset;
+}
+.number-resoult:active {
+  border-radius: 10px;
+  background: #f96b5b;
+  box-shadow: 0px -4px 0px 0px #93261a inset;
+}
