@@ -246,3 +246,49 @@ body {
   background: #f96b5b;
   box-shadow: 0px -4px 0px 0px #93261a inset;
 }
+@media screen and (max-width: 426px) {
+  body {
+    max-width: 400px;
+  }
+  .card {
+    max-width: 90%;
+    margin: 30px auto;
+  }
+  .number-control {
+    gap: 13px;
+  }
+  .number-resoult {
+    width: 133px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-top: 12px;
+  }
+  .number-reset {
+    width: 133px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-top: 12px;
+  }
+  .number {
+    width: 60px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+  .number:nth-child(4) {
+    font-size: 20px;
+  }
+  .card-display {
+    padding: 29px 24px 22px 0px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  .card-number {
+    gap: 13px;
+    margin-bottom: 13px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+}
